@@ -30,6 +30,24 @@ project or directly via symfony cli:
 symfony new --demo symfony_demo
 ```
 
+Now, edit the `.env` file in your `symfony_demo` folder so it sets `ENV=prod` so
+the container is compiled.
+
+## Start the application
+
+We use the http server the symfony cli provides. It will start a php-fpm instance on its
+own.
+
+```bash
+symfony serve
+```
+
+## Access the application
+
+The url we want to hit is `http://127.0.0.1/de/blog/`, it will issue a mixture of db-calls, templating
+and http.
+
+
 ## License
 
 The code belongs to the Symfony framework and is subject to the MIT license.
