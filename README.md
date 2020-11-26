@@ -33,6 +33,14 @@ symfony new --demo symfony_demo
 Now, edit the `.env` file in your `symfony_demo` folder so it sets `ENV=prod` so
 the container is compiled.
 
+Grab the suitable executable of bombardier for your platform from
+the projects' GitHub page: https://github.com/codesenberg/bombardier/releases/tag/v1.2.5
+
+```
+wget https://github.com/codesenberg/bombardier/releases/download/v1.2.5/bombardier-linux-amd64
+chmod +x bombardier-linux-amd64
+```
+
 ## Start the application
 
 We use the http server the symfony cli provides. It will start a php-fpm instance on its
