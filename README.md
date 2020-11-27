@@ -1,6 +1,6 @@
 # PHP aarch64 benchmarking
 
-**Note:** The code in this repository belongs to the [`symfony/demo`](https://github.com/symfony/demo) application of the [Symfony project](https://symfony.com) which is subject to the MIT license.
+**Note:** The code in this repository is a copy the [`symfony/demo`](https://github.com/symfony/demo) application of the [Symfony project](https://symfony.com) and is subject to the MIT license. Thanks for providing an excellent example app!
 
 ## Setup
 
